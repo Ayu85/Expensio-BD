@@ -2,7 +2,7 @@ import { model, Schema } from "mongoose";
 
 const billSchema = new Schema({
     category: {
-        type: String, enum: ['water', 'electricity', 'recharge', 'subscriptions', 'wifi', 'credit card']
+        type: String, enum: ['water', 'electricity', 'recharge', 'subscriptions', 'wifi', 'credit card','others']
     },
     name: {
         type: String, required: true
