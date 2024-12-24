@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/lib/db.ts","./src/models/bill.model.ts","./src/models/payment.model.ts","./src/models/plan.model.ts","./src/models/user.model.ts"],"version":"5.7.2"}
+{"root":["./src/index.ts","./src/controllers/authcontrollers.ts","./src/lib/db.ts","./src/models/bill.model.ts","./src/models/payment.model.ts","./src/models/plan.model.ts","./src/models/spending.model.ts","./src/models/user.model.ts","./src/routes/authroutes.ts","./src/utils/searchuser.ts"],"version":"5.7.2"}
