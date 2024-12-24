@@ -1,5 +1,5 @@
 import { model, Schema } from "mongoose";
-
+import bcrypt from 'bcrypt'
 const userSchema = new Schema({
     username: {
         type: String, lowercase: true, required: true
@@ -17,6 +17,6 @@ const userSchema = new Schema({
         type: String, required: true
     },
 
-})
+}, { timestamps: true })
 
 export default model('User', userSchema)
